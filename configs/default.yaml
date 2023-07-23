@@ -1,0 +1,15 @@
+experiment_dir: .
+train_config:
+  dataset: test
+  batch_size: 128
+  epochs: 2
+  optimizer_config:
+    name: sgd
+    arguments:
+      weight_decay: 0.0
+      momentum: 0.0
+      lr: 0.1
+model_config:
+  mock_param: 0
+device: cuda
+verbose: progress

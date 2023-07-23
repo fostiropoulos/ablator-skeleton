@@ -1,0 +1,15 @@
+total_trials: 10
+concurrent_trials: 10
+search_space:
+  model_config.mock_param:
+    value_range:
+    - '0'
+    - '100'
+    categorical_values: null
+    subspaces: null
+    sub_configuration: null
+    value_type: int
+    n_bins: 10
+    log: false
+gpu_mb_per_experiment: 100
+search_algo: grid
